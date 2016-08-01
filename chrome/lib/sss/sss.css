@@ -3,7 +3,6 @@ body {
 	font-family: 'Segoe UI', 'Lucida Grande', Helvetica, sans-serif;
 	line-height: 1.5;
 	margin: 50px auto;
-	max-width: 800px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,6 +68,7 @@ blockquote {
 table {
 	border-collapse: collapse;
 	width: 100%;
+	table-layout: fixed;
 }
 table + table {
 	margin-top: 1em;
@@ -80,6 +80,7 @@ thead {
 th, td {
 	border: 1px solid #EEE;
 	padding: 5px 10px;
+	word-wrap: break-word;
 }
 
 hr {
